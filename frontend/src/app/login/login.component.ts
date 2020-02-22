@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent implements OnInit {
-  username = 'in28minutes'
+  username = 'Admin'
   password = ''
   errorMessage = 'Invalid Credentials'
   invalidLogin = false
@@ -17,7 +17,7 @@ export class LoginComponent implements OnInit {
   }
 
   handleLogin() {
-    if(this.username==="in28minutes" && this.password === 'dummy') {
+    if(this.username==="Admin" && this.password === 'admin') {
     // if(this.hardcodedAuthenticationService.authenticate(this.username, this.password)) {
     //   //Redirect to Welcome Page
     //   this.router.navigate(['welcome', this.username])
