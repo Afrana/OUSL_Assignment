@@ -10,6 +10,8 @@ import { ErrorComponent } from './error/error.component';
 import { FooterComponent } from './footer/footer.component';
 import { MenuComponent } from './menu/menu.component';
 import { LogoutComponent } from './logout/logout.component';
+import { StudentComponent } from './student/student.component';
+import { ExamComponent } from './exam/exam.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { LogoutComponent } from './logout/logout.component';
     ErrorComponent,
     FooterComponent,
     MenuComponent,
-    LogoutComponent
+    LogoutComponent,
+    StudentComponent,
+    ExamComponent
   ],
   imports: [
     BrowserModule,
